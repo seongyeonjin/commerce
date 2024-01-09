@@ -12,16 +12,16 @@ const Main = () => {
             <VisualWrap>
                 <Swiper modules={[Autoplay]} spaceBetween={0} slidesPerView={1} autoplay={{ delay: 5000, disableOnInteraction: false }} loop={true} onSlideChange={() => console.log('slide change')} onSwiper={(swiper) => console.log(swiper)}>
                     <SwiperSlide>
-                        <img src="/images/visual3.gif" alt="" />
+                        <img src="./images/visual3.gif" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/images/visual1.jpeg" alt="" />
+                        <img src="./images/visual1.jpeg" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/images/visual2.jpeg" alt="" />
+                        <img src="./images/visual2.jpeg" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/images/visual4.jpeg" alt="" />
+                        <img src="./images/visual4.jpeg" alt="" />
                     </SwiperSlide>
                 </Swiper>
             </VisualWrap>
