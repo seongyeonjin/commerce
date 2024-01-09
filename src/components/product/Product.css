@@ -1,0 +1,3 @@
+.cart-box { display: flex; justify-content: space-between; flex-wrap: wrap;}
+.cart-box article {  }
+.cart-box article img { width: 300px;   }
