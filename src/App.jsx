@@ -1,4 +1,4 @@
-import { BrowserRouter,  Routes,  Route,  Link  } from "react-router-dom";
+import { HashRouter as Router,  Routes,  Route,  Link  } from "react-router-dom";
 import GlobalStyle from "./styled/GlobalStyle"
 import Main from "./pages/main/Main";
 import Layout from "./components/Layout";
@@ -19,7 +19,7 @@ import CustomerAdd from "./components/customer/CustomerAdd";
 const App = () => {
   return (
     <>
-    <BrowserRouter>
+    <Router>
         <GlobalStyle /> 
         <Routes>
           <Route path="/" element={<Layout/> }>
@@ -42,7 +42,7 @@ const App = () => {
             </Route>
           </Route>
         </Routes>
-     </BrowserRouter>
+     </Router>
     </>
   );
 };
