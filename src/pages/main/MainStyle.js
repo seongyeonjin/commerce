@@ -8,6 +8,7 @@ export const VisualWrap = styled.section`
 export const MainWrap = styled.div`
     &.main{}
     h2 { font-size:30px; font-weight:700;color: #571F1F; }
+    h3 {font-size: 24px;text-align: center;margin-bottom: 20px;}
     .attrangs {
         margin-bottom: 80px;
         p {text-align:center;font-size: 16px;color: #571F1F;}

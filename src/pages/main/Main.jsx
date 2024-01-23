@@ -5,6 +5,9 @@ import { useSelector } from "react-redux";
 import CartList from "../../components/cart/CartList";
 import 'swiper/css';
 import 'swiper/css/autoplay';
+import ProductItem from '../../components/product/ProductItem';
+import ProductList from '../../components/product/ProductList';
+import Content1 from '../../components/Main/Content1';
 const Main = () => {
     const {cartData} = useSelector(state=> state.cart)
     return (
@@ -33,6 +36,8 @@ const Main = () => {
                         <p>일상에 스며드는 실용적인 옷들부터</p>
                         <p>가장 빛이 나야하는 순간까지 언제나 함께 하겠습니다.</p>
                     </div>
+                    <h3>베스트상품</h3>
+                    <ProductList />
                 </div>
             </MainWrap>
         </>
